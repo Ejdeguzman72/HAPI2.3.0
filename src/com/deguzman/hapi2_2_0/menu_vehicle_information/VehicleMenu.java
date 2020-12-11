@@ -102,7 +102,7 @@ public class VehicleMenu extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(48, 48, 48));
 
         jLabel3.setBackground(new java.awt.Color(48, 48, 48));
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:/HAPI2.0-pictures/inventory-icon.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/inventory-icon.png"))); // NOI18N
         jLabel3.setToolTipText("Inventory Informatiion");
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -126,7 +126,7 @@ public class VehicleMenu extends javax.swing.JFrame {
 
         jPanel9.setBackground(new java.awt.Color(48, 48, 48));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:/HAPI2.0-pictures/car-icon.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/car-icon.png"))); // NOI18N
         jLabel7.setToolTipText("Vehicle Information");
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -153,7 +153,7 @@ public class VehicleMenu extends javax.swing.JFrame {
 
         jPanel11.setBackground(new java.awt.Color(48, 48, 48));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:/HAPI2.0-pictures/surveilance-icon.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/surveilance-icon.png"))); // NOI18N
         jLabel4.setToolTipText("Surveilance");
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -177,7 +177,7 @@ public class VehicleMenu extends javax.swing.JFrame {
 
         jPanel12.setBackground(new java.awt.Color(48, 48, 48));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:/HAPI2.0-pictures/diary-icon.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/diary-icon.png"))); // NOI18N
         jLabel5.setToolTipText("Video Log");
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -201,7 +201,7 @@ public class VehicleMenu extends javax.swing.JFrame {
 
         jPanel10.setBackground(new java.awt.Color(32, 32, 32));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\HAPI2.0-pictures\\home-5-48.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/home-5-48.png"))); // NOI18N
         jLabel6.setToolTipText("Main Menu");
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -264,7 +264,7 @@ public class VehicleMenu extends javax.swing.JFrame {
 
         jPanel13.setBackground(new java.awt.Color(48, 48, 48));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:/HAPI2.0-pictures/view-icon.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/view-icon.png"))); // NOI18N
         jLabel8.setToolTipText("View Vehicle Information");
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -318,7 +318,7 @@ public class VehicleMenu extends javax.swing.JFrame {
 
         jPanel15.setBackground(new java.awt.Color(48, 48, 48));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:/HAPI2.0-pictures/add-icon.png")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/add-icon.png"))); // NOI18N
         jLabel10.setToolTipText("Add Vehicle Information");
         jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -342,7 +342,7 @@ public class VehicleMenu extends javax.swing.JFrame {
                 .addGap(17, 17, 17)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 406, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 396, Short.MAX_VALUE))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -364,9 +364,9 @@ public class VehicleMenu extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel3);
-        jPanel3.setBounds(830, 80, 510, 115);
+        jPanel3.setBounds(830, 80, 500, 115);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\HAPI2.0-pictures\\cement-wall-texture-background_53876-91519.jpg")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cement-wall-texture-background_53876-91519.jpg"))); // NOI18N
         jPanel1.add(jLabel9);
         jLabel9.setBounds(160, 0, 1240, 620);
 

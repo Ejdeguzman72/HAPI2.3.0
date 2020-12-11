@@ -70,12 +70,17 @@ public class ViewVehicleModsForm extends javax.swing.JFrame {
         final String user = "postgres";
 
         final String password = "password";
+        
+        // int vehicleComboBoxIndex = vehicleComboBox.getSelectedIndex();
+        
+        // System.out.println(vehicleComboBox.getSelectedIndex() + " this is the selected index");
 
         // Object id = vehicleComboBox.getSelectedIndex();
         // Object id = jTable1.getValueAt(row, 0);
         
-        // String sql = "SELECT * FROM VEHICLE_MODS WHERE vehicle_id = " + id;
         String sql = "SELECT * FROM VEHICLE_MODS";
+        //String sql = "SELECT * FROM VEHICLE_MODS WHERE vehicle_id = " + id;
+        // String sql = "SELECT * FROM VEHICLE_MODS WHERE VEHICLE_ID IN (" + vehicleComboBoxIndex + ")";
 
         try {
             Connection connection = DriverManager.getConnection(dbhost, user, password);
@@ -195,7 +200,7 @@ public class ViewVehicleModsForm extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel5);
-        jPanel5.setBounds(1401, 0, 160, 0);
+        jPanel5.setBounds(1401, 0, 160, 865);
 
         jPanel6.setBackground(new java.awt.Color(32, 32, 32));
         jPanel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -375,34 +380,40 @@ public class ViewVehicleModsForm extends javax.swing.JFrame {
         jScrollPane5.setBounds(200, 80, 1040, 360);
 
         deleteButton.setBackground(new java.awt.Color(48, 48, 48));
+        deleteButton.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
         deleteButton.setForeground(new java.awt.Color(255, 255, 255));
-        deleteButton.setText("Delete Information");
+        deleteButton.setText("Delete");
         deleteButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 deleteButtonActionPerformed(evt);
             }
         });
         jPanel1.add(deleteButton);
-        deleteButton.setBounds(1250, 150, 140, 28);
+        deleteButton.setBounds(1250, 150, 140, 31);
 
         updateButton.setBackground(new java.awt.Color(48, 48, 48));
         updateButton.setFont(new java.awt.Font("sansserif", 0, 14)); // NOI18N
         updateButton.setForeground(new java.awt.Color(255, 255, 255));
-        updateButton.setText("Update Information");
+        updateButton.setText("Update");
         updateButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 updateButtonActionPerformed(evt);
             }
         });
         jPanel1.add(updateButton);
-        updateButton.setBounds(1253, 101, 140, 30);
+        updateButton.setBounds(1250, 100, 140, 30);
 
         vehicleComboBox.setBackground(new java.awt.Color(48, 48, 48));
         vehicleComboBox.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         vehicleComboBox.setForeground(new java.awt.Color(255, 255, 255));
         vehicleComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose Vehicle" }));
+        vehicleComboBox.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                vehicleComboBoxItemStateChanged(evt);
+            }
+        });
         jPanel1.add(vehicleComboBox);
-        vehicleComboBox.setBounds(200, 20, 160, 35);
+        vehicleComboBox.setBounds(200, 20, 190, 35);
 
         jLabel8.setIcon(new javax.swing.ImageIcon("C:\\HAPI2.0-pictures\\cement-wall-texture-background_53876-91519.jpg")); // NOI18N
         jPanel1.add(jLabel8);
@@ -568,6 +579,11 @@ public class ViewVehicleModsForm extends javax.swing.JFrame {
         }
             
     }//GEN-LAST:event_updateButtonActionPerformed
+
+    private void vehicleComboBoxItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_vehicleComboBoxItemStateChanged
+        // TODO add your handling code here:
+        // String query = vehicleComboBox.getSelectedIndex().toString();
+    }//GEN-LAST:event_vehicleComboBoxItemStateChanged
 
     /**
      * @param args the command line arguments

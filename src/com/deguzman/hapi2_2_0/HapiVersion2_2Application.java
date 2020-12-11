@@ -164,7 +164,7 @@ public class HapiVersion2_2Application extends javax.swing.JFrame {
         jPanel3.add(jPanel4);
         jPanel4.setBounds(140, 130, 340, 270);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\HAPI2.0-pictures\\cement-wall-texture-background_53876-91519.jpg")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/deguzman/hapi2_2_0/cement-wall-texture-background_53876-91519.jpg"))); // NOI18N
         jPanel3.add(jLabel6);
         jLabel6.setBounds(-3, -4, 620, 510);
 

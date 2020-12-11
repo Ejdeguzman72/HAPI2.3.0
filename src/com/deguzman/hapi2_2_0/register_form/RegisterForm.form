@@ -198,14 +198,14 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\HAPI2.0-pictures\cement-wall-texture-background_53876-91519.jpg"/>
+              <Image iconType="3" name="/images/cement-wall-texture-background_53876-91519.jpg"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\HAPI2.0-pictures\cement-wall-texture-background_53876-91519.jpg"/>
+              <Image iconType="3" name="/images/cement-wall-texture-background_53876-91519.jpg"/>
             </Property>
           </Properties>
         </Component>

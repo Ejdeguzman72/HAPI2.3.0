@@ -196,7 +196,7 @@
                       <Color blue="30" green="30" red="30" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/inventory-icon.png"/>
+                      <Image iconType="3" name="/images/inventory-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Inventory Information"/>
                   </Properties>
@@ -237,7 +237,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/car-icon.png"/>
+                      <Image iconType="3" name="/images/car-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Vehicle Informaton"/>
                   </Properties>
@@ -274,7 +274,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/surveilance-icon.png"/>
+                      <Image iconType="3" name="/images/surveilance-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Surveilance"/>
                   </Properties>
@@ -311,7 +311,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/diary-icon.png"/>
+                      <Image iconType="3" name="/images/diary-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Video Log"/>
                   </Properties>
@@ -347,7 +347,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel6">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\HAPI2.0-pictures\home-5-48.png"/>
+                      <Image iconType="3" name="/images/home-5-48.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Main Menu"/>
                   </Properties>
@@ -426,7 +426,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel8">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/view-icon.png"/>
+                      <Image iconType="3" name="/images/view-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="View Front Door Security"/>
                   </Properties>
@@ -510,7 +510,8 @@
                           <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                           <Component id="jLabel10" min="-2" pref="61" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jScrollPane3" pref="406" max="32767" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" pref="414" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -525,7 +526,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/add-icon.png"/>
+                      <Image iconType="3" name="/images/add-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="View Back Door Security"/>
                   </Properties>
@@ -624,7 +625,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/update-icon.png"/>
+                      <Image iconType="3" name="/images/update-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="View Vegetation Security"/>
                   </Properties>
@@ -659,7 +660,7 @@
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\HAPI2.0-pictures\cement-wall-texture-background_53876-91519.jpg"/>
+              <Image iconType="3" name="/images/cement-wall-texture-background_53876-91519.jpg"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel11"/>
           </Properties>

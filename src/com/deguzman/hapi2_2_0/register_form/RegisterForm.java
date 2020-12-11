@@ -122,9 +122,9 @@ public class RegisterForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\HAPI2.0-pictures\\cement-wall-texture-background_53876-91519.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cement-wall-texture-background_53876-91519.jpg"))); // NOI18N
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\HAPI2.0-pictures\\cement-wall-texture-background_53876-91519.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cement-wall-texture-background_53876-91519.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

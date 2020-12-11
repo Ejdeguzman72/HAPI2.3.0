@@ -36,6 +36,8 @@ public class ViewVehicleForm extends javax.swing.JFrame {
     }
 
     public ArrayList<Vehicle> getVehicleList() {
+        
+        
         ArrayList<Vehicle> vehicleList = new ArrayList<>();
 
         final String dbhost = "jdbc:postgresql://localhost:5432/InventoryTrackerDB";
@@ -160,7 +162,7 @@ public class ViewVehicleForm extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel5);
-        jPanel5.setBounds(1401, 0, 160, 0);
+        jPanel5.setBounds(1401, 0, 160, 865);
 
         jPanel6.setBackground(new java.awt.Color(32, 32, 32));
         jPanel6.setForeground(new java.awt.Color(255, 255, 255));

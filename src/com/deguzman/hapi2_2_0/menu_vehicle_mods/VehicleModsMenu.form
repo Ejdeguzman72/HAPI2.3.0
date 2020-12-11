@@ -198,7 +198,7 @@
                       <Color blue="30" green="30" red="30" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/inventory-icon.png"/>
+                      <Image iconType="3" name="/images/inventory-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Inventory Informatiion"/>
                   </Properties>
@@ -239,7 +239,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/car-icon.png"/>
+                      <Image iconType="3" name="/images/car-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Vehicle Information"/>
                   </Properties>
@@ -276,7 +276,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/surveilance-icon.png"/>
+                      <Image iconType="3" name="/images/surveilance-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Surveilance"/>
                   </Properties>
@@ -313,7 +313,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/diary-icon.png"/>
+                      <Image iconType="3" name="/images/diary-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Video Log"/>
                   </Properties>
@@ -428,7 +428,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel8">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/view-icon.png"/>
+                      <Image iconType="3" name="/images/view-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="View Vehicle Information"/>
                   </Properties>
@@ -530,7 +530,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:/HAPI2.0-pictures/add-icon.png"/>
+                      <Image iconType="3" name="/images/add-icon.png"/>
                     </Property>
                     <Property name="toolTipText" type="java.lang.String" value="Add Vehicle Information"/>
                   </Properties>
@@ -568,7 +568,7 @@
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\HAPI2.0-pictures\cement-wall-texture-background_53876-91519.jpg"/>
+              <Image iconType="3" name="/images/cement-wall-texture-background_53876-91519.jpg"/>
             </Property>
           </Properties>
           <Constraints>
